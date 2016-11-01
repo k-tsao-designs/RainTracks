@@ -1,0 +1,207 @@
+html, body{
+	width: 100%;
+	height:100%;
+	margin: 0;
+	padding: 0;
+}
+
+.base{
+	width: 200%;
+	height:100%;
+	z-index: 0;
+	overflow:hidden;
+	position: fixed;
+}
+
+.layer1 {
+	opacity: .9;
+	z-index: 1;
+}
+
+.layer2 {
+	opacity: .8;
+	z-index: 2;
+}
+
+.layer3 {
+	opacity: .7;
+	z-index: 3;
+}
+
+.layer4 {
+	opacity: .6;
+	z-index: 4;
+}
+
+.layer5 {
+	opacity: .5;
+	z-index: 5;
+}
+
+.layer6 {
+	opacity: .4;
+	z-index: 6;
+}
+
+.layer7 {
+	opacity: .3;
+	z-index: 7;
+}
+
+#screen {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.tracks {
+	background-attachment: fixed;
+	margin:0;
+    padding: 0;
+    position: relative;
+    height: 100%;
+    width:5%;
+/*    background-blend-mode: multiply;*/
+    background-size: cover;
+    display: block;
+    float: left;
+    overflow: visible; 
+}
+
+.road {
+	background-image: url("images/road.jpg");
+}
+
+.paris {
+	background-image: url("images/paris.jpg");
+}
+
+.nyc {
+	background-image: url("images/nyc.jpg");
+}
+
+/*layer 1 road*/
+.track1 {
+	left: 12px;
+	width: 2.5%;
+}
+
+.track2 {
+	left: 46px;
+	width: 6.3%;
+}
+
+.track3 {
+	left: 82px;
+	width: 3%;
+}
+
+.track4 {
+	left: 134px;
+	width: 2%;
+}
+
+.track5 {
+	left: 142px;
+	width: 5.8%;
+}
+
+.track6 {
+	left: 177px;
+	width: 3.2%;
+}
+
+.track7 {
+	left: 205px;
+	width: 4.1%;
+}
+
+.track8 {
+	left: 250px;
+	width: 8.6%;
+}
+
+/*layer 1 paris*/
+.track9 {
+	left: -140px;
+	width: 3.5%;
+}
+
+.track10 {
+	left: -105px;
+	width: 2%;
+}
+
+.track11 {
+	left: -60px;
+	width: 5%;
+}
+
+.track12 {
+	left: -30px;
+	width: 4.5%;
+}
+
+.track13 {
+	left: 2px;
+	width: 3.2%;
+}
+
+.track14 {
+	left: 25px;
+	width: 1.5%;
+}
+
+.track15 {
+	left: 32px;
+	width: 1.9%;
+}
+
+.track16 {
+	left: 62px;
+	width: 3.6%;
+}
+
+.track17 {
+	left: 108px;
+	width: 4.3%;
+}
+
+.track18 {
+	left: 123px;
+	width: 2.3%;
+}
+
+/*layer 1 nyc*/
+.track19 {
+	left: 101px;
+}
+
+.track20 {
+	left: 108px;
+}
+
+
+
+
+
+#helper{
+	/*display:none;*/
+	position:absolute;
+	left:0;
+	top:0;
+	height:10000%;
+	width:20px;
+	margin:0;
+}
+
+.marker{
+	width:100%;
+	height:1%;
+	border: 2px solid white;
+	font-family: helvetica;
+	font-size: 2em;
+	border: 2px solid white;
+}
