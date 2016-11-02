@@ -176,19 +176,179 @@ html, body{
 
 /*layer 1 nyc*/
 .track19 {
-	left: 101px;
+	left: -252px;
+	width: 3.7%;
 }
 
 .track20 {
-	left: 108px;
+	left: -240px;
+	width: 5.7%;
 }
+
+.track21 {
+	left: -210px;
+	width: 1.8%;
+}
+
+.track22 {
+	left: -190px;
+	width: 4.2%;
+}
+
+.track23 {
+	left: -160px;
+	width: 2.6%;
+}
+
+.track24 {
+	left: -122px;
+	width: 3.6%;
+}
+
+.track25 {
+	left: -81px;
+	width: 5.6%;
+}
+
+.track26 {
+	left: -42px;
+	width: 3.1%;
+}
+
+.track27 {
+	left: -18px;
+	width: 1.2%;
+}
+
+/*layer 2 road*/
+.track28 {
+	left: 0px;
+	width: 1.9%;
+}
+
+.track29 {
+	left: 0px;
+	width: 1.9%;
+}
+
+.track30 {
+	left: 0px;
+	width: 1.9%;
+}
+
+.track31 {
+	left: 0px;
+	width: 1.9%;
+}
+
+.track32 {
+	left: 0px;
+	width: 1.9%;
+}
+
+.track33 {
+	left: 0px;
+	width: 1.9%;
+}
+
+.track34 {
+	left: 0px;
+	width: 1.9%;
+}
+
+.track35 {
+	left: 0px;
+	width: 1.9%;
+}
+
+/*layer 2 paris*/
+.track36 {
+	left: 0px;
+	width: 1.9%;
+}
+.track37 {
+	left: 0px;
+	width: 1.9%;
+}
+.track38 {
+	left: 0px;
+	width: 1.9%;
+}
+.track39 {
+	left: 0px;
+	width: 1.9%;
+}
+.track40 {
+	left: 0px;
+	width: 1.9%;
+}
+.track41 {
+	left: 0px;
+	width: 1.9%;
+}
+.track42 {
+	left: 0px;
+	width: 1.9%;
+}
+.track43 {
+	left: 0px;
+	width: 1.9%;
+}
+
+/*layer 2 nyc*/
+.track44 {
+	left: 0px;
+	width: 1.9%;
+}
+.track45 {
+	left: 0px;
+	width: 1.9%;
+}
+.track46 {
+	left: 0px;
+	width: 1.9%;
+}
+.track47 {
+	left: 0px;
+	width: 1.9%;
+}
+.track48 {
+	left: 0px;
+	width: 1.9%;
+}
+.track49 {
+	left: 0px;
+	width: 1.9%;
+}
+.track50 {
+	left: 0px;
+	width: 1.9%;
+}
+.track51 {
+	left: 0px;
+	width: 1.9%;
+}
+
+
+/*layer 3 road*/
+
+/*layer 3 paris*/
+
+/*layer 3 nyc*/
+
+
+/*layer 4 road*/
+
+/*layer 4 paris*/
+
+/*layer 4 nyc*/
 
 
 
 
 
 #helper{
-	/*display:none;*/
+	display:none;
 	position:absolute;
 	left:0;
 	top:0;
