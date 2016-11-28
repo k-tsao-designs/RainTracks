@@ -5,6 +5,10 @@ html, body{
 	padding: 0;
 }
 
+#bg-noise {
+	display: none;
+}
+
 .base{
 	width: 200%;
 	height:100%;
@@ -62,7 +66,6 @@ html, body{
     padding: 0;
     position: relative;
     height: 100%;
-    width:5%;
 /*    background-blend-mode: multiply;*/
     background-size: cover;
     display: block;
@@ -119,7 +122,7 @@ html, body{
 }
 
 .track8 {
-	left: 250px;
+	left: 249px;
 	width: 8.6%;
 }
 
@@ -223,121 +226,215 @@ html, body{
 /*layer 2 road*/
 .track28 {
 	left: 0px;
-	width: 1.9%;
+	width: 3.7%;
 }
 
 .track29 {
-	left: 0px;
-	width: 1.9%;
+	left: 30px;
+	width: 2.9%;
 }
 
 .track30 {
-	left: 0px;
-	width: 1.9%;
+	left: 70px;
+	width: 3.4%;
 }
 
 .track31 {
-	left: 0px;
-	width: 1.9%;
+	left: 100px;
+	width: 1.8%;
 }
 
 .track32 {
-	left: 0px;
-	width: 1.9%;
+	left: 115px;
+	width: 2.7%;
 }
 
 .track33 {
-	left: 0px;
-	width: 1.9%;
+	left: 175px;
+	width: 4.9%;
 }
 
 .track34 {
-	left: 0px;
-	width: 1.9%;
+	left: 253px;
+	width: 1.4%;
 }
 
 .track35 {
-	left: 0px;
-	width: 1.9%;
+	left: 309px;
+	width: 2.3%;
 }
 
 /*layer 2 paris*/
 .track36 {
-	left: 0px;
+	left: -83px;
 	width: 1.9%;
 }
 .track37 {
-	left: 0px;
-	width: 1.9%;
+	left: -68px;
+	width: 3.9%;
 }
 .track38 {
-	left: 0px;
-	width: 1.9%;
+	left: -42px;
+	width: 5.5%;
 }
 .track39 {
-	left: 0px;
-	width: 1.9%;
+	left: 51px;
+	width: 2.1%;
 }
 .track40 {
-	left: 0px;
-	width: 1.9%;
+	left: 88px;
+	width: 1.5%;
 }
 .track41 {
-	left: 0px;
-	width: 1.9%;
+	left: 116px;
+	width: 2.95%;
 }
 .track42 {
-	left: 0px;
-	width: 1.9%;
-}
-.track43 {
-	left: 0px;
-	width: 1.9%;
+	left: 160px;
+	width: 3.4%;
 }
 
 /*layer 2 nyc*/
+.track43 {
+	left: -180px;
+	width: 2.3%;
+}
 .track44 {
-	left: 0px;
-	width: 1.9%;
+	left: -90px;
+	width: 3.5%;
 }
 .track45 {
-	left: 0px;
-	width: 1.9%;
+	left: 10px;
+	width: 3.1%;
 }
 .track46 {
-	left: 0px;
-	width: 1.9%;
+	left: 32px;
+	width: 2%;
 }
 .track47 {
-	left: 0px;
-	width: 1.9%;
+	left: 92px;
+	width: 2.8%;
 }
 .track48 {
-	left: 0px;
-	width: 1.9%;
+	left: 116px;
+	width: 2.4%;
 }
 .track49 {
-	left: 0px;
-	width: 1.9%;
-}
-.track50 {
-	left: 0px;
-	width: 1.9%;
-}
-.track51 {
-	left: 0px;
+	left: 153px;
 	width: 1.9%;
 }
 
 
 /*layer 3 road*/
+.track50 {
+	left: -217px;
+	width: 3.9%;
+}
+.track51 {
+	left: -184px;
+	width: 3.8%;
+}
+.track52 {
+	left: -162px;
+	width: 5.5%;
+}
+.track53 {
+	left: -285px;
+	width: 1.2%;
+}
+.track54 {
+	left: 35px;
+	width: 2.2%;
+}
+.track54b {
+	left: 122px;
+	width: 1.2%;
+}
 
 /*layer 3 paris*/
+.track55 {
+	left: 0px;
+	width: 2.5%;
+}
+.track56 {
+	left: 0px;
+	width: 1.9%;
+}
+.track57 {
+	left: 0px;
+	width: 2.5%;
+}
+.track58 {
+	left: 0px;
+	width: 1.9%;
+}
+.track59 {
+	left: 0px;
+	width: 1.9%;
+}
 
 /*layer 3 nyc*/
-
+.track60 {
+	left: 0px;
+	width: 2.5%;
+}
+.track61 {
+	left: 0px;
+	width: 1.9%;
+}
+.track62 {
+	left: 0px;
+	width: 2.5%;
+}
+.track63 {
+	left: 0px;
+	width: 1.9%;
+}
+.track64 {
+	left: 0px;
+	width: 1.9%;
+}
 
 /*layer 4 road*/
+.track65 {
+	left: -89px;
+	width: 3.6%;
+}
+.track66 {
+	left: -49px;
+	width: 2.9%;
+}
+.track67 {
+	left: -195px;
+	width: 2.7%;
+}
+.track68 {
+	left: -32px;
+	width: 2.6%;
+}
+.track69 {
+	left: 20px;
+	width: 1.9%;
+}
+
+/*layer 5 road*/
+.track70 {
+	left: -341px;
+	width: 7.4%;
+}
+.track71 {
+	left: 172px;
+	width: 8.1%;
+}
+.track72 {
+	left: 220px;
+	width: 8.0%;
+}
+.track73 {
+	left: 270px;
+	width: 7.6%;
+}
+
 
 /*layer 4 paris*/
 
